@@ -25,7 +25,7 @@ define(['app', 'js/utils/citySelect'],function (app, CitySelect) {
         $scope.showCitySelect = function() {
             CitySelect.init({
                 element: ".js-citySelestNode",
-                value: ["", "", ""],
+                value: ["广东省", "广州市", "天河区"],
                 callback: function(data) {
                     $scope.$apply(function() {
                         $scope.template.area = data.join('，')
@@ -47,5 +47,5 @@ define(['app', 'js/utils/citySelect'],function (app, CitySelect) {
 
         }
     }]);
-
+   
 });

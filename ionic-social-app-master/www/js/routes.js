@@ -277,8 +277,6 @@ define(['app'],function (app) {
                             }
                         }
                     })
-
-                    //我的发帖
                     .state('tab.mypost', {
                         url: '/mypost',
                         views: {
@@ -289,7 +287,6 @@ define(['app'],function (app) {
                             }
                         }
                     })
-                    //我的活动
                     .state('tab.myact', {
                         url: '/myact',
                         views: {
